@@ -1,5 +1,3 @@
-let cards = []
-let sum = 0
 let hasBlackJack = false
 let isAlive = false
 let message = ""
@@ -32,9 +30,6 @@ let playerTwo = {
 
 }
 
-console.log(playerOne.name + playerOne.turn)
-console.log(playerTwo.name + playerTwo.turn)
-
 playerOneEl.textContent = "Player " + playerOne.number + ": $" + playerOne.chips
 playerTwoEl.textContent = "Player " + playerTwo.number + ": $" + playerTwo.chips
 
@@ -51,8 +46,8 @@ function getRandomCard() {
 
 function startGame() {
     isAlive = true
-    playerOne.turn = false
-    playerTwo.turn = true
+    playerOne.turn = true
+    playerTwo.turn = false
     playerOne.cards = [getRandomCard(), getRandomCard()]
     playerTwo.cards = [getRandomCard(), getRandomCard()]
     playerOne.sum = playerOne.cards[0] + playerOne.cards[1]
