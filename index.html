@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Encode+Sans+Condensed:wght@300&family=Instrument+Sans&display=swap" rel="stylesheet">
+    <title>BlackJack</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BLACKJACK</h1>
+        <p id="message-el">Want to play a round?</p>
+        <div class="player-container">
+            <div class="player-one-container">
+                <p class="cards">CARDS</p>
+                <p class="content" id="cards-one-el"></p>
+                <p class="sum">SUM</p>
+                <p class="content" id="sum-one-el"></p>
+                <button class="new-card" onclick="newCard(playerOne)">NEW CARD</button>
+                <p class="player" id="player-one-el"></p>
+            </div>
+            <div class="player-two-container">
+                <p class="cards">CARDS</p>
+                <p class="content" id="cards-two-el"></p>
+                <p class="sum">SUM</p>
+                <p class="content" id="sum-two-el"></p>
+                <button class="new-card" onclick="newCard(playerTwo)">NEW CARD</button>
+                <p class="player" id="player-two-el"></p>
+            </div>
+        </div>
+        <button class="start-game" onclick="startGame()">START GAME</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

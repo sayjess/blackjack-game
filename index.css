@@ -1,0 +1,91 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/table.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.container {
+    width: 600px;
+    height: 400px;
+    background-color: #1C2541;
+    padding-bottom: 40px;
+}
+
+
+.player-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 55px;
+    align-items: flex-start;
+    background-color: #3A506B;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #5BC0BE;
+    font-family: 'Climate Crisis', cursive;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+p, button {
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+#message-el {
+    font-family: 'Instrument Sans', sans-serif;
+    color: #5BC0BE;
+    margin: 0;
+}
+
+button {
+    color: white;
+    width: 150px;
+    background: #5BC0BE;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    font-weight: 100;
+}
+
+
+
+.cards, .sum {
+    font-family: 'Climate Crisis', cursive;
+    font-size: 28px;
+    margin: 5px 0 0 0;
+    font-weight: 200px;
+}
+
+.content {
+    height: 10px;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.new-card {
+    background-color: #1C2541;
+    color: #5BC0BE;
+}
+
+.start-game {
+    color: #0B132B;
+    background-color: #5BC0BE;
+}
